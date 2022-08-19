@@ -1,0 +1,22 @@
+.body{
+    background-color: black;
+}
+label input{
+    margin: 3px;
+}
+.calculation-div{
+  padding: 10px;
+  box-shadow: 15px 15px 20px 5px ;
+ background-color: gray;
+ border-radius: 10px;
+}
+.titleColor{
+color: tomato;
+}
+.titleColor1{
+    color: gold;
+}
+
+.col img{
+    height: 450px;
+}
