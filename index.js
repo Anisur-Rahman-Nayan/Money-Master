@@ -54,6 +54,6 @@ function savingMoney(){
     const savingAmountTotal = ((fromtTotalBalanceNumber * percentageNumber)/100);
     const ramainingBalanceTotal = fromtTotalBalanceNumber - savingAmountTotal;
 
-    savingAmountField.innerText = savingAmountTotal
-    ramainingBalanceField.innerText = ramainingBalanceTotal
+    savingAmountField.innerText = savingAmountTotal.toFixed(2)
+    ramainingBalanceField.innerText = ramainingBalanceTotal.toFixed(2)
 }
